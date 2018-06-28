@@ -26,7 +26,8 @@ public class MyGdxGame extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
 		x++;
-		batch.draw(img,x, 0);
+		batch.draw(img,0,0,Gdx.graphics.getWidth(),Gdx.graphics.getHeight());
+		batch.draw(img,x, 0,100,100);
 		//hi
 		if(Gdx.graphics.getWidth() < x + img.getWidth()){
 			x=0;
