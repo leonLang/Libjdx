@@ -28,7 +28,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		x++;
 		batch.draw(img,x, 0);
 		//hi
-		if(Gdx.graphics.getWidth() < x){
+		if(Gdx.graphics.getWidth() < x + img.getWidth()){
 			x=0;
 		}
 		batch.end();
