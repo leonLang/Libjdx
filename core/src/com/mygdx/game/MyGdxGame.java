@@ -24,7 +24,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		batch.draw(img, 0, 0);
 		batch.end();
 	}
-	
+	//test
 	@Override
 	public void dispose () {
 		batch.dispose();
