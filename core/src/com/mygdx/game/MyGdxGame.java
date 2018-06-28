@@ -13,6 +13,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	@Override
 	public void create () {
 		//hi
+        //jajaja
 		batch = new SpriteBatch();
 		img = new Texture("badlogic.jpg");
 	}
